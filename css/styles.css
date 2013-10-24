@@ -1,0 +1,453 @@
+@import url(http://fonts.googleapis.com/css?family=Monoton);
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+
+/*This set the purple background, and the font style and size*/
+body {
+    background-image: url(../img/purple.png);
+    background-repeat: repeat;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+h2, h3 {
+	font-family: 'Luckiest Guy', sans-serif;
+}
+
+:focus {
+	outline: #F00 solid 4px !important;
+	background-color: #FFF700 !important;
+}
+
+.video {
+	clear:both;
+} 
+
+.itemOne {
+	height: 300px;
+}
+
+.adjust {
+	width: 500px;
+	height: 400px;
+}
+
+.itemTwo {
+	height: 500px;
+}
+
+.adjustTwo {
+	width: 900px;
+	margin:0 auto;
+    text-align:center;
+    display:block;
+}
+
+/*This established the spacing within the paragraphs*/
+p {
+	padding: 10px;
+}
+
+/*This put the titles in the middle, established the border, and size of font*/
+.midTitle{
+	margin:0 auto;
+    text-align:center;
+    display:block;
+	font-size: 170%;
+	width: 50%;
+	margin-top:10px;
+	margin-bottom:10px;
+	border: 3px solid #000;
+	background-color: #CF81E8;
+}
+
+/*This created the size of the section titles*/
+.title2{
+	padding:10px;
+	background-color: #CF81E8;
+	border: 3px solid #000;
+	font-size:150%;
+	clear: both;
+}
+
+/*This creates the size and spacing for the titles within the sections*/
+.title3{
+	margin-bottom:10px;
+	font-size: 120%;
+	color:#C79900;
+	clear:both;
+}
+
+.pizzaColor {
+	color:#C79900;
+}
+
+.bottomBorder{
+	border-bottom: 3px solid #000;
+}
+
+/*This made the motto italic and increased the size*/
+.motto {
+	font-size: 120%;
+	font-style: italic;
+}
+
+/*This made the yellow box where the text is */
+.content-box {
+	width: 80%;
+	background-color: #39275B;
+	margin: 0 auto;
+	box-shadow: 2px 2px 6px #555;
+}
+
+.navscreen {
+	background-color: #CF81E8;
+	border: 3px solid #000;
+}
+
+.pizzaCarousel {
+	margin-top: 30px;
+}
+
+/*This lined the information on the home page, and spaced them apart. Also gave them borders to distinguish them*/
+.position{
+	background-color: #CF81E8;
+	border: 3px solid #000;
+	margin: 10px;
+	text-align: center;
+	float:left;
+	clear:both;
+}
+
+.one {
+	background-image: url(../img/clock.png);
+	background-repeat: no-repeat;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-size: 80px;
+}
+
+.two {
+	background-image: url(../img/navigation.png);
+	background-repeat: no-repeat;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-size: 80px;
+}
+
+.three {
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-size: 35px;
+	margin-bottom: 35px;
+}
+
+.wheel{
+	background-image: url(../img/wheel.png);
+	background-repeat: no-repeat;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-size: 50px;
+	margin-bottom: 35px;
+}
+
+.chef{
+	background-image: url(../img/chef.png);
+	background-repeat: no-repeat;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-size: 50px;
+	margin-bottom: 35px;
+}
+
+/*This creates the spacing */
+dl{
+	padding: 10px;
+}
+
+/*This set the font to italic */
+dl dd{
+	font-style: italic;
+	clear:both;
+	color:white;
+}
+
+/*This adjusted the size and spacing */
+dl dt{
+	font-size: 150%;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+/*This got rid of the visited feature of a hyperlink */
+dl a:link,
+dl a:visited {
+	text-decoration: none;
+}
+
+/*This made the hyperlink underlined when hovered */
+dl a:hover{
+	text-decoration: underline;
+}
+
+/*This adjusted the picture of the pizza */
+.pizza {
+	width: 90%;
+	height:50%;
+	margin:0 auto;
+    text-align:center;
+    display:block;
+    border: 5px solid #000;
+}
+
+.pizzaDeal {
+	font-weight: bold;
+	font-style: italic;
+	color:pink;
+}
+
+/*This added in the border, color, and placement of the content */
+.aboutContent {
+	background-color: #CF81E8;
+	border: 3px solid #000;
+}
+
+/*This adjusted the positioning of the counter picture */
+.counter {
+	width: 100%;
+	margin-top:-10px;
+	margin-bottom:-2px;
+}
+
+/*This adjusted the positioning of the oven picture */
+.oven {
+	width: 100%;
+	height: 500px;
+	margin:0 auto;
+}
+
+/*This adjusted the positioning and color in the menu */
+.price {
+	float:right;
+	color: #E82B1F;
+	margin-top:-20px;	
+	clear:both;
+}
+
+/*This adjusted the color, size, and positioning of the jobs */
+.jobs{
+	background-color: #CF81E8;
+	border: 3px solid #000;
+	text-align:center;
+	margin-left:20px;
+	padding:20px;
+	margin-bottom:10px;
+	margin-top: 10px;
+	font-size: 150%;
+
+}
+
+/*This made the aside comments better positioned, and added color */
+aside{
+	float: right;
+	padding: 20px;
+	background-color: #B725E8;
+	border: 1px dotted #CCC;
+}
+
+/*This is the footer, made the positioning, border, size */
+footer {
+    margin:0 auto;
+    text-align:center;
+    display:block;
+    font-style: italic;
+    color: white;
+    position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:30px;
+   	width:100%;
+   	background-color:#B725E8; 
+    clear: both;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.title1 { 
+   position: absolute; 
+   top: 200px; 
+   left: 80px; 
+   width: 100%; 
+   font-size: 200%;
+}
+
+.motto {
+	font-style: italic;
+	color: gold;
+	display:none;
+}
+
+.motto1 {
+	position:absolute;
+	top: 150px;
+	left: 800px;
+	width:100%;
+}
+
+h2 span, p span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+@media screen and (max-width: 1410px) {
+	.carousel {
+		display:none;
+	}
+
+	.video{
+		position:absolute;
+		right:10px;
+	}
+
+	.motto1 {
+		position:absolute;
+		top: 150px;
+		left: 300px;
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.motto1 {
+		display:none;
+	}	
+	.motto{
+		display:block;
+	}
+	.video {
+		display: none;
+	}
+
+}
+
+
+
+@media screen and (max-width: 766px)  {
+   /* styles to apply on very narrow screens */
+	.counter {
+		display:none;
+	}
+
+	.oven {
+		display:none;
+	}
+
+	.title1 {
+		display:none;
+	}
+
+	.pizza {
+		display: none;
+	}
+
+	.pizzaDeal {
+		font-size:150%;
+	}
+
+	.midTitle{
+		font-size: 200%;
+	}
+	
+	.title2 {
+		font-size: 200%;
+	}
+
+	.title3{
+		font-size: 200%;
+	}
+
+	.pizzaColor{
+		font-size: 150%;
+	}
+
+	.hiring {
+		display: none;
+	}
+
+	dl dd{
+		font-size: 150%;
+	}
+
+	aside {
+		display:none;
+	}
+}
+
+@media screen and (max-width: 555px) {
+
+	.content-box{
+		width:100%;
+	}
+
+	.one{
+		background-image:none;
+		background-color: #CF81E8;
+		padding-left:0px;
+		padding-right:0px;
+		text-align: left;
+	}
+	.two{
+		background-image:none;
+		background-color: #CF81E8;
+		padding-left:0px;
+		padding-right:0px;
+		text-align: left;
+	}
+	.three {
+		background-image:none;
+		background-color: #CF81E8;
+		padding-left:0px;
+		padding-right:0px;
+		text-align: left;
+	}
+
+	.chef {
+		background-image:none;
+		background-color: #CF81E8;
+		padding-left:0px;
+		padding-right:0px;
+	}
+
+	.wheel {
+		background-image:none;
+		background-color: #CF81E8;
+		padding-left:0px;
+		padding-right:0px;
+	}
+
+}
+
+@media screen and (max-height: 708px) {
+	.motto1 {
+		display:none;
+	}	
+	.title1{
+		display:none;
+	}
+	.pizza {
+		display:none;
+	}
+	.motto{
+		display:block;
+	}
+}

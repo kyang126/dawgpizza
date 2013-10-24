@@ -1,0 +1,89 @@
+<!doctype <html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<title>Assignment 1</title>
+		<meta name="author" content="1065387">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+		<!-- hot link to Bootstrap stylesheet -->
+	    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+	    <!-- our own stylesheet for overrides -->
+	    <link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<article class = "content-box">
+			<h1 id="site-name"><a href="index.html" title="Dawg Pizza"><img src="img/logo.png" height="88" width="228" /></a></h1>
+				<nav class="navbar navbar-default navscreen" role="navigation">
+
+			        <div class="navbar-header">
+			            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".pizza-navbar-menu">
+			                <span class="sr-only">Toggle Navigation</span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>              
+			            </button>
+			            
+			        </div>
+
+			        <div class="collapse navbar-collapse pizza-navbar-menu">
+				        <ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+				            <li><a href="menu.html">Menu</a></li>
+				            <li><a href="about.html">About Us</a></li>
+				            <li><a href="jobs.html">Jobs</a></li>    
+				        </ul>
+				    </div>
+		    	</nav>
+			</header>		
+
+			<h2 class = "midTitle">Positions Available</h2>
+			<div id="job-carousel" class="carousel slide">
+				<!-- slide indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#job-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#job-carousel" data-slide-to="1"></li>
+				</ol>
+							    
+				<!-- slides --> 
+				<div class="carousel-inner jobCarousel">
+					<!-- slide -->
+					<div class="item active itemTwo">
+						<img class = "adjustTwo" src="img/delivery.jpg"  alt="Pizza Delivery">
+							<div class="carousel-caption">
+							    <p>Great Customer Service needed!</p>
+							</div>
+					</div>
+
+					<div class="item itemTwo">
+						<img class = "adjustTwo" src="img/hiring.jpg"  alt="Making Pizza">
+						<div class="carousel-caption">
+							<p>Strong cooking skills needed!</p>
+						</div>
+					</div>
+ 				</div> <!-- .slides -->
+				<!-- left-right controls -->
+				<a class="left carousel-control" href="#job-carousel" data-slide="prev"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" href="#job-carousel" data-slide="next"><span class="icon-next"></span></a>	
+
+			</div> <!-- carousel -->  
+						    
+			<p class = "jobs chef">Kitchen Staff</p>
+			<p class = "jobs wheel">Delivery Drivers</p>
+
+			<footer>
+				<address>
+					<p>&copy; Dawg Pizza. Call us for delivery: 206-555-1212</p>
+				</address>
+			</footer>
+		</article>
+		 <!-- hot links to Bootstrap JavaScript and jQuery (required by Bootstrap) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+                <!-- auto-play the carousel -->
+        <script>
+        	$('.carousel').carousel();
+        </script>
+	</body>
+</html>

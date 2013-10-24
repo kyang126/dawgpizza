@@ -1,0 +1,55 @@
+<!doctype <html>
+	<head>
+		<!--#include virtual="inc/header.html" -->
+	</head>
+	<body>
+		<article class = "content-box">
+			<header>
+				<!--#include virtual="inc/navigation.html" -->
+			</header>		
+
+			<h2 class = "midTitle">Positions Available</h2>
+			<div id="job-carousel" class="carousel slide">
+				<!-- slide indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#job-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#job-carousel" data-slide-to="1"></li>
+				</ol>
+							    
+				<!-- slides --> 
+				<div class="carousel-inner jobCarousel">
+					<!-- slide -->
+					<div class="item active itemTwo">
+						<img class = "adjustTwo" src="img/delivery.jpg"  alt="Pizza Delivery">
+							<div class="carousel-caption">
+							    <p>Great Customer Service needed!</p>
+							</div>
+					</div>
+
+					<div class="item itemTwo">
+						<img class = "adjustTwo" src="img/hiring.jpg"  alt="Making Pizza">
+						<div class="carousel-caption">
+							<p>Strong cooking skills needed!</p>
+						</div>
+					</div>
+ 				</div> <!-- .slides -->
+				<!-- left-right controls -->
+				<a class="left carousel-control" href="#job-carousel" data-slide="prev"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" href="#job-carousel" data-slide="next"><span class="icon-next"></span></a>	
+
+			</div> <!-- carousel -->  
+						    
+			<p class = "jobs chef">Kitchen Staff</p>
+			<p class = "jobs wheel">Delivery Drivers</p>
+
+			<!--#include virtual="inc/footer.html" -->
+		</article>
+		 <!-- hot links to Bootstrap JavaScript and jQuery (required by Bootstrap) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+                <!-- auto-play the carousel -->
+        <script>
+        	$('.carousel').carousel();
+        </script>
+	</body>
+</html>
