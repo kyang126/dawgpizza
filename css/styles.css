@@ -194,7 +194,7 @@ dl a:hover{
 }
 
 /*This adjusted the picture of the pizza */
-.pizza {
+.pizzaImage {
 	width: 90%;
 	height:50%;
 	margin:0 auto;
@@ -356,7 +356,7 @@ h2 span, p span {
 		display:none;
 	}
 
-	.pizza {
+	.pizzaImage {
 		display: none;
 	}
 
@@ -444,7 +444,7 @@ h2 span, p span {
 	.title1{
 		display:none;
 	}
-	.pizza {
+	.pizzaImage {
 		display:none;
 	}
 	.motto{

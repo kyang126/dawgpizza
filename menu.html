@@ -43,86 +43,36 @@
 			
 			<img class = "counter" src="img/counter.jpg" width="100" height="298" alt="counter">	
 
-			<section>
-				<h3 class = "title2">Pizzas:</h3>
-				<p class = "pizzaColor">All out pizzas are made with hand-thrown thin crust, baked in real wood ovens. Choose from one of these sizes: 
-				
-				<p class = "pizzaDeal">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2</p>
 
-				<dl> 
-					<dd>Small (12")</dd>
-					<dd>Medium (14")</dd>
-					<dd>Large (17")</dd>
-				</dl>
-			</section>
-			<div class = "row">
-				<div class = "col-md-6">
-					<section>
-						<h3 class = "title2">Meat Pies:</h3>
-						<dl>
-						    <dt class = "title3">Classic Pepperoni</dt>
-						    <dd class = "price">$10/$13/$16</dd>
-						    <dd>Pepperoni and Mozzarella on our Spicy Tomato Sauce. </dd>
-						    <dt class = "title3">The Hawaiian</dt>
-						    <dd class = "price"> $12/$14/$17</dd>
-						    <dd> Canadian Bacon and Pineapple with Mozzarella on a rich Tomato Sauce. </dd>   
-							<dt class = "title3">Duck, Duck, Goose</dt>
-							<dd class = "price"> $15/$17/$19</dd>
-							<dd>Roasted Duck and Goose with Bacon, Chestnuts on a rich Plum Sauce.</dd>
-						    <dt class = "title3"> The Bambi</dt>
-						    <dd class = "price"> $15/$17/$19</dd>
-						    <dd>Slow-cooked Venison with Red Cabbage on our famous Black Cherry Sauce.</dd>
-						    <dt class = "title3"> The Ultimate</dt>
-						    <dd class = "price"> $15/$19/$23</dd>
-						    <dd> Pepperoni, Bacon, Canadian Bacon, Chicken, Duck, Goose, and Ground Beef with Smoked Mozzarella on our Spicy Tomato Sauce. Add Venison or Elk for an extra $2!</dd>
-						</dl>
-					</section>	
-				</div>
-				<div class = "col-md-6">
-					<section>
-						<h3 class = "title2">Vegetarian Pies:</h3>
-						<dl>
-						    <dt class = "title3">Margherita</dt>
-						    <dd class = "price"> $10/$13/$16</dd>
-						    <dd> Mozzarella, Basil, Salt on an Olive Oil Base.</dd>
-						    <dt class = "title3">Veggie Madness</dt>
-						    <dd class = "price"> $11/$14/$17</dd>
-						    <dd> Mushroom, Black Olive, Onions, Roasted Garlic, Squash and Roasted Eggplant on our Spicy Tomato Sauce.</dd>
-						    <dt class = "title3">Forest Floor</dt>
-						    <dd class = "price"> $11/$14/$17</dd>
-						    <dd> Three kinds of mushrooms with Mozzarella on a herb Tomato Sauce.</dd>
-						    <dt class = "title3">Mr Green</dt>
-						    <dd class = "price"> $13/$16/$19</dd>
-						    <dd>Roasted Chicken with Romano on a Basil Pesto sauce.</dd>
-						    <dt class = "title3">Purple Monster</dt>
-						    <dd class = "price"> $11/$14/$17</dd>
-						    <dd> Roasted Eggplant and Cabbage stir fried in sesame oil on a rich Plum Sauce.</dd>
-						</dl>
-					</section>
-				</div>	
-			</div>	
-			<section>
-				<h3 class = "title2">Drinks:</h3>
-				<dl>
-					<dt class = "title3">Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can</dt>
-					<dd class = "price"> $4</dd>
-					<dt class= "title3">Rainier Beer by the can</dt>
-					<dd class = "price"> $4</dd>
-					<dt class = "title3">House Red Wine by the glass or bottle</dt>
-					<dd class = "price"> $10/$40</dd>
-				</dl>
-			</section>	
-			<section>
-				<h3 class= "title2">Dessert:</h3>
-				<dl>
-					<dt class = "title3">Chocolate Gelato</dt>
-					<dd class = "price">$8</dd>
-					<dt class = "title3">Lemon Sorbet</dt>
-					<dd class = "price"> $7</dd>
-					<dt class = "title3">Ricotta Cheese Cake</dt>
-					<dd class = "price"> $10</dd>
-				</dl>
-			</section>
+			<!-- container for the pizza entries -->
+            <div class="pizzaMenu"></div>
+
+            <!-- template card for each entry
+             this will not be displayed, only used by code -->
+            <div class="template menuItems">
+                <div class="details">
+                    <h2 class="title3"><span class="name"></span></h2>
+                    <p><span class="description"></p>
+                    <p>Prices: <span class="prices"></span></p>
+                </div>
+            </div>
+
+            <div class="drinksMenu"></div>
+            <div class="template drinks">
+                <div class="details">
+                    <h2 class="title3"><span class="name"></span></h2>
+                    <p>Price: <span class="price"></span></p>
+                </div>
+            </div>
+
+            <div class="dessertsMenu"></div>
+            <div class="template desserts">
+                <div class="details">
+                    <h2 class="title3"><span class="name"></span></h2>
+                    <p>Prices: <span class="price"></span></p>
+                </div>
+            </div>
+
 			<footer>
 				<address>
 					<p>&copy; Dawg Pizza. Call us for delivery: 206-555-1212</p>
@@ -134,6 +84,10 @@
 		 <!-- hot links to Bootstrap JavaScript and jQuery (required by Bootstrap) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="http://www.dawgpizza.com/orders/menu.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/menuItems.js"></script>
+   
 
 	</body>
 </html>
